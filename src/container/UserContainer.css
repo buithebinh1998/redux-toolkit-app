@@ -1,0 +1,99 @@
+.input-form{
+    margin: 10px auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 40%;
+}
+
+h2{
+    text-align: center;
+    align-self: center;
+    color: #033a56;
+}
+
+.input-form input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+
+label{
+    font-weight: bold; 
+    color: #033a56;
+}
+
+.form-inline{
+    width: 100%;
+}
+
+.form-inline label{
+    width: auto;
+    margin-right: 10px;
+}
+
+.form-inline input{
+    width: auto;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+button{  
+    color: white;
+    background-color: #04354c;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    margin: 0 10px;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color:red;
+}
+
+#table {
+    display:table;
+    margin: 20px auto;
+}
+
+.row  {
+    display:table-row; 
+    height: 40px;
+}
+
+.row.main{
+    color: #033a56;
+    font-weight: bold;
+}
+
+.cell {
+    display:table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 50px;
+}
+
+.cell.id{
+    width: 50px;
+    background-color: #b0e8db;
+}
+
+.cell.name{
+    width: 200px;
+    background-color: #f9f968;
+}
+
+.cell.email{
+    width: 400px;
+    background-color: #a4fba4;
+}
+
+.cell.active{
+    width: 100px;
+    background-color: #fe7861;
+}
