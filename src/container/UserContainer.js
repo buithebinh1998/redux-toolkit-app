@@ -69,11 +69,11 @@ class UserContainer extends Component {
                 </div>
                 <h2>List of users:</h2>
                 <div id="table">
-                    <div class="row main">
-                        <div class="cell id" >ID</div>
-                        <div class="cell name" >Name</div>
-                        <div class="cell email">Email</div>
-                        <div class="cell active">Activation</div>
+                    <div className="row main">
+                        <div className="cell id" >ID</div>
+                        <div className="cell name" >Name</div>
+                        <div className="cell email">Email</div>
+                        <div className="cell active">Activation</div>
                     </div>
                     {loadUser}
                 </div>
